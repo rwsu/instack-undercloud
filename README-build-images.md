@@ -1,11 +1,11 @@
-Overcloud image building
-========================
+# Building Overcloud Images
+
     
 1. Enable the RDO icehouse repository
 
         sudo yum install -y http://rdo.fedorapeople.org/openstack-icehouse/rdo-release-icehouse.rpm
 
-1. You can either pull instack-undercloud related RPM's from the openstack-m testing repository or the RDO staging repository for now. Decide which one you want, and enable it via the comamnds shown below.
+1. You can either pull instack-undercloud related RPM's from the openstack-m testing repository or the RDO staging repository for now. Decide which one you want, and enable it via the commands shown below.
 
     For openstack-m:
     
