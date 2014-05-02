@@ -15,6 +15,7 @@ created on the host earlier.  Make a note of the user and ip you used here.  The
 VIRTUAL_POWER_HOST values in the instack.answers file discussed later.
 
     ssh-keygen -t rsa -N '' -C virtual-power-key -f virtual-power-key
+    
     ssh-copy-id -i virtual-power-key.pub stack@192.168.122.1
 
 
