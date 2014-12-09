@@ -68,6 +68,9 @@ function do_tripleo_source_installs {
         # there is cherry-pick conflict
         cherry_pick tripleo-image-elements refs/changes/08/130608/5
         cherry_pick tripleo-image-elements refs/changes/14/130714/12
+	# Fix rabbitmq SELinux file contexts
+        # https://review.openstack.org/137259
+	cherry_pick tripleo-image-elements refs/changes/59/137259/2
 
     fi
 
